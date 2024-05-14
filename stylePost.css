@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(64, 165, 120);
+}
+header {
+    background-color: rgb(0, 103, 105);
+    height: 50px;
+    border: 1px solid black;
+}
+.voltar {
+    color: white;
+    background-color: black;
+}
+.login-box {
+    background-color: rgb(157, 222, 139);
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: auto; /* Adicionando esta linha */
+    margin-top: 50px; /* Isso é opcional para adicionar algum espaço acima da div */
+    padding: 15px;
+}
+.login {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.user-box {
+    margin-top: 10px;
+}
+.user-box2 {
+    margin-top: 10px;
+}
+.user-box input{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.user-box2 input {
+    width: 200px;
+}
+.user-box label{
+    color: black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.user-box2 label {
+    color: black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.submit {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+}

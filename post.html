@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POSTAGEM</title>
+    <link rel="stylesheet" href="stylePost.css">
+    <title>Form</title>
 </head>
 <body>
-    
-    
+    <header>
+        <a href="header.html"><button class="voltar">Voltar</button></a>
+      </header>
+      <div class="login-box">
+        <form action="" id="form">
+          <h1 class="login">Post:</h1>
+          <div class="user-box">
+            <input type="text" id="title" name="title" />
+            <label>TITLE:</label>
+          </div>
+          <div class="user-box">
+            <input type="text" id="mensagem" name="content" />
+            <label>MENSAGE:</label>
+          </div>
+          <div class="user-box2">
+            <input type="file" name="imageInput" id="imageInput">
+            <label for="imageInput">IMAGE:</label>
+          </div>
+          <center>
+            <button value="submit" id="submit" type="submit" class="submit">ENVIAR</button>
+          </center>
+        </form>
+      </div>
 </body>
+<script src="header.js"></script>
 </html>
